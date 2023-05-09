@@ -1,14 +1,34 @@
 {
   "tests": [
     {
-      "name": "Test",
+      "name": "strange_pattern",
       "setup": "sudo -H pip3 install pytest numpy",
-      "run": "pytest",
+      "run": "pytest test_strange_pattern.py",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": null
+      "points": 1
+    },
+    {
+      "name": "gaussian_analysis",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest test_gaussian_analysis.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "combination",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest test_combination.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
     }
   ]
 }
